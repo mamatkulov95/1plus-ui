@@ -9,3 +9,49 @@
   color: #000;
   font-weight: 400;
 }
+
+.hero-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 216px);
+  grid-template-rows: repeat(6, 436px);
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.hero-container {
+  border: 0.7px solid rgba(48, 47, 46, 0.70);
+}
+
+.checked {
+  color: #F90;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.user {
+  color: #000;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.pagination {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  width: 708px;
+  margin: auto;
+}
+
+.arrow-img {
+  width: 10px;
+  height: 40px;
+}
+
+.page-btn.active {
+  border: none;
+  border-radius: 50%;
+  padding: 8px 15px;
+  background-color: #FDD446;
+}
